@@ -1,0 +1,21 @@
+.smi{
+    list-style-type:none;
+   
+}
+.smi li{
+    display: inline-block;
+    background-color: white;
+   
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+.tn{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    height: 300px;
+}
+.focolor{
+    background: linear-gradient( lightgrey 60%, grey 100%);
+}

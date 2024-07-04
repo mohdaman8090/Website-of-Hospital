@@ -1,0 +1,128 @@
+.card-front::before{
+    content: "";
+    position:absolute;
+    inset: 1rem;
+    border: 3px solid yellow;
+    transform: translateZ(2rem);
+}
+.title{
+    font-family: "Teko",sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 120%;
+    transform: translateZ(4.4rem);
+
+}
+.sub-title{
+    font-size: o.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transform: translateZ(3rem);
+}
+.card{
+    width: 400px;
+
+}
+.card-content{
+    position:relative;
+    padding: 15rem 5rem;
+    transform-style: preserve-3d;
+    transition:transform 3s;
+
+}
+
+.card:hover .card-content{
+    transform: rotateY(180deg);
+}
+.card-front,
+.card-back{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.card-front,
+.card-back{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color:black bold;
+
+}
+.card-front{
+    background-color: rgba(248, 142, 3, 0.2);
+    background-image: url("images/robo.png");
+    align-items: center;
+}
+.card-back{
+    background-image: url("images/my pic 1.jpg");
+    transform: rotateY(180deg);
+    gap: 0.5rem;
+
+}
+.mycolor{
+    background-color:#054F8C;
+}
+
+.mycolor2{
+    background-color:#2245A6;
+}
+
+.mycolor3{
+    background-color:#153167;
+}
+
+.my-bg{
+    width:100%;
+height:100%px;
+background: linear-gradient( lightgrey 60%, grey 100%);
+}
+
+.my-bg2{
+    background-color:#00B7A3;
+opacity:0.6;
+}
+
+.my-bg3{
+    background-color:#3D76E4;
+opacity:0.9;
+}
+
+.my-bg4{
+    background-color: #E4EFFC;
+}
+
+
+
+.smi
+{
+   list-style-type: none; 
+}
+
+.smi li{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px 14px;
+}
+
+.smi li a{
+    text-decoration:none;
+    color: #054F8C;
+}
+
+.about{
+    width: 100%;
+    height: fit-content;
+}
+.jit-bg{
+    background-color: gray;
+}
